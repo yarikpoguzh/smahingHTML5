@@ -1,0 +1,248 @@
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+*zoom: 1;
+}
+
+body {
+	background-color: #F5F4EF;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #111111;
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+input, textarea {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+
+h1 {
+	font-size: 24px;
+	color: #C74350;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h1,h2,h3,h4 {
+	margin: 0;
+}
+
+#wrap {
+	width: 750px;
+	margin: 0 auto;
+
+}
+
+a {
+	color: #C74350;
+	text-decoration: underline;
+	transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover {
+	color: #FFFFFF;
+	background-color: #C74350;
+	text-decoration: none;
+
+
+}
+
+section {
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+
+}
+
+/* Header Block */
+
+.header-top {
+	padding-top: 40px;
+}
+
+.nav {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+	background-color: #444444;
+	border-radius: 10px;
+}
+
+.nav a{
+	color: #FFFFFF;
+	width: 100px;
+	display: block;
+	padding:10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.nav li:first-child a{
+	border-radius: 10px 0 0 10px;
+}
+
+.nav li {
+	float: left;
+
+}
+
+.nav li a.active {
+	color: orange;
+}
+
+
+.motto {
+	margin: 0 0 20px 0;
+	font-size: 16px;
+
+}
+
+.logo {
+	font-size: 50px;
+	text-decoration: none;
+	color: #111111;
+	font-weight: bold;
+}
+
+.logo:hover {
+	color: #C74350;
+	background-color: transparent;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #111111;
+}
+
+h3 a {
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
+.date span{
+	font-size: 12px;
+	border-bottom: 1px dotted #111111;
+
+}
+
+.widget-title {
+	color: #C74350;
+}
+
+.links {
+	padding: 0;
+	list-style: none;
+
+}
+
+.links a {
+	color: #111111;
+	display: block;
+	padding: 3px 2px 3px 2px;
+	text-decoration: none;
+	border-bottom: 1px solid #d4d4d4;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 0px 1px 0 0 #ffffff;
+	margin-bottom: 20px;
+}
+
+.links li:nth-child(1) a,
+.links li:nth-child(5) a {
+
+}
+
+
+
+.links a:hover{
+	color: #FFFFFF;
+}
+
+.links li {
+	width: 23%;
+	float: left;
+
+
+}
+
+.left, .right {
+	float: left;
+}
+
+.left {
+	width: 30%;
+}
+.right {
+	width: 70%;
+}
+
+.right p{
+	margin: 0;
+	font-weight: bold;
+}
+
+.image {
+	display: block;
+	float: right;
+	width: 80px;
+	height: auto;
+	margin-left: 40px;
+}
+
+.footer_logo {
+	display: block;
+	background:#fff url("../img/ba_logo.png") no-repeat 0 0;
+	background-size: contain;
+	width: 180px;
+	height: 41px;
+	text-indent: -99999px;
+
+}
+
+.footer_logo:hover {
+	background-color: transparent;
+}
+
+label {
+	cursor: pointer;
+}
+
+label[for="user_message"]{
+	display: block;
+}
+
+.form-row {
+	padding: 10px 0 0;
+}
+footer {
+	text-align: right;
+	padding-bottom: 35px;
+
+}
